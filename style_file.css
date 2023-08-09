@@ -1,0 +1,180 @@
+body{
+	background-color:#262425 ;
+}
+
+.banner{
+	text-align: center;
+	
+}
+
+.banner h1{
+	color:#FFAE0B;
+	font-family: monospace;
+	animation: color-change 1s Linear ;
+	animation-delay: 0s;
+}
+@keyframes color-change{
+	0%{color:white;
+		font-size:5px;
+		text-shadow: none;
+		filter: blur(8px);
+  -webkit-filter: blur(8px);}
+	50%{color:white;
+		font-size: 30px;
+		text-shadow: none
+	filter: blur(8px);
+  -webkit-filter: blur(8px);}
+	70%{
+		  color:white;
+			text-shadow:white 2px 2px;
+	}
+	100%{
+			color:white;
+			text-shadow:white 2px 2px;
+			font-size: 30px;}
+	
+}
+.card{
+	border-radius:7px;
+	font-family: "Cambria";
+}
+.card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262425;
+}
+
+.card li {
+  float: left;
+  
+}
+
+.card li:last-child {
+  border-right: none;
+  font-family: fantasy;
+  background-color:#660000;
+  border-radius:10px;
+  border:outset black;
+
+}
+
+.card li a {
+  display: block;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.card li a:hover:not(.active) {
+  background-color: #111;
+}
+.card li a:hover{
+	background-color: grey;
+}
+
+.card .active {
+  background-color: black;
+  color:white;
+
+}
+
+
+.wel{
+padding: 20px
+}
+.wel h1{
+	text-align: center;
+	font-family:Courier;
+	color:#FFAE0B;
+
+}
+.orderonline img{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.wel{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+.wel2 h3{
+	background-color: blue;
+	text-align: center;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	width:50px;
+	margin-left: 25%;
+
+}
+.wel2 marquee{
+	text-align: center;
+	font-family: Arial Narrow;
+	background-color: white;
+	font-size: 30px;
+	margin-left: 25%;
+	margin-right: 25%;
+
+}
+#hotels{
+	text-align: center;
+	font-family:Courier;
+	color:#FFAE0B;
+	text-decoration: blink;
+
+	
+}
+.hotels_card{
+	padding:40px;
+	position: relative;
+	overflow: auto;
+	white-space: nowrap;
+	font-family: arial;
+	text-align: center;
+	background-color:#262425 ;
+	border-radius: 20px;
+	margin-left:20%;
+	margin-right: 20%;
+}
+.hotels_card nav{
+	display: inline-block;
+}
+.hotels_card h2{
+	color: black;
+	font-family: cursive;
+	border:inset 5px black;
+	padding: 20px;
+
+	
+}
+.hotels_card button{
+	padding:10px;
+	border-radius:50%;
+	height: 100px;
+	width:100px;
+	box-shadow:grey 2px 2px 2px 2px;
+	background-color: green;
+	text-shadow: ;
+	color: floralwhite;
+	font-weight:bold;
+}
+.hotels_card button:hover{
+	padding:13px;
+	height:105px;
+	width:105px;
+}
+.description p{
+	font-family:Perpetua;
+}
+.ihot{
+	background-color: white;
+	padding: 20px;
+	border: black 2px solid;
+	margin-left: 5%;
+	border-radius:20px;
+	box-shadow:black 3px 3px 3px 3px;
+}

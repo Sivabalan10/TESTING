@@ -53,6 +53,10 @@ body{
 
 .card li:last-child {
   border-right: none;
+    font-family: fantasy;
+  background-color:#660000;
+  border-radius:10px;
+  border:outset black;
 
 
 }
@@ -62,7 +66,7 @@ body{
   color: white;
   text-align: center;
   border-radius: 10px;
-  padding: 14px 16px;
+  padding: 11px 13px;
   text-decoration: none;
 }
 

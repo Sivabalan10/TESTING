@@ -4,8 +4,8 @@ body{
 .logo img{
 	margin-left:auto;
 	margin-right:auto;
-	width:100px;
-	height:100px;
+	width:70px;
+	height:70px;
 	border-radius:50%;
 }
 .banner{
@@ -15,6 +15,7 @@ body{
 
 .banner h1{
 	color:#FFAE0B;
+	display:inline-block;
 	font-family: monospace;
 	animation: color-change 1s Linear ;
 	animation-delay: 0s;

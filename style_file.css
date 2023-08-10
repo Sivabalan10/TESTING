@@ -1,7 +1,11 @@
 body{
 	background-color:#262425 ;
 }
-
+.logo img{
+	margin:auto;
+	width:200px;
+	height:200px
+	padding:50%
 .banner{
 	text-align: center;
 	

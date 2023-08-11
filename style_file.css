@@ -1,0 +1,253 @@
+body{
+	background-color:#262425 ;
+}
+.logo img{
+	float:left;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+}
+.banner{
+	text-align: auto;
+	display: inline-block;
+	
+}
+
+.banner h1{
+	margin-left: 7%;
+	color:#FFAE0B;
+	display:inline-block;
+	font-family: monospace;
+	animation: color-change 1s Linear ;
+	animation-delay: 0s;
+	float:right;
+}
+@keyframes color-change{
+	0%{color:white;
+		font-size:5px;
+		text-shadow: none;
+		filter: blur(8px);
+  -webkit-filter: blur(8px);}
+	50%{color:white;
+		font-size: 30px;
+		text-shadow: none
+	filter: blur(8px);
+  -webkit-filter: blur(8px);}
+	70%{
+		  color:white;
+			text-shadow:white 2px 2px;
+	}
+	100%{
+			color:white;
+			text-shadow:white 2px 2px;
+			font-size: 30px;}
+	
+}
+.card{
+	border-radius:7px;
+	font-family: "Cambria";
+}
+.card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262425;
+}
+
+.card li {
+  float: left;
+  
+}
+
+.card li:last-child {
+  border-right: none;
+    font-family: fantasy;
+  background-color:#660000;
+  border-radius:10px;
+  border:outset black;
+
+
+}
+
+.card li a {
+  display: block;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 11px 13px;
+  text-decoration: none;
+}
+
+.card li a:hover:not(.active) {
+  background-color: grey;
+}
+.card li a:hover{
+	background-color: grey;
+}
+
+
+.wel{
+padding: 20px
+}
+.wel h1{
+	text-align: center;
+	font-family:Courier;
+	color:#FFAE0B;
+
+}
+.orderonline img{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.q1 marquee{
+	color: #bfbfbf;
+	text-align: center;
+	font-size: 50px;
+	font-family: Comic Sans;
+}
+#hotels{
+	text-align: center;
+	font-family:Courier;
+	color:#FFAE0B;
+	text-decoration: blink;
+	margin-top:5%;
+	
+}
+.hotels_card{
+	padding:40px;
+	position: relative;
+	overflow: auto;
+	white-space: nowrap;
+	font-family: arial;
+	text-align: center;
+	background-color:#262425 ;
+	border-radius: 20px;
+	margin-left:10%;
+	margin-right: 10%;
+}
+.hotels_card nav{
+	display: inline-block;
+
+}
+.hotels_card h2{
+	color: black;
+	font-family: Arial;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	outline-color: black;
+	background-image: url('hotelbanner.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	
+}
+.hotels_card button{
+	padding:10px;
+	border-radius:50%;
+	height: 100px;
+	width:100px;
+	box-shadow:black 2px 2px 2px 2px;
+	background-color: green;
+	color: floralwhite;
+	font-weight:bold;
+	cursor:pointer;
+}
+.hotels_card button:hover{
+	background-color: grey;
+
+}
+
+.description p{
+	font-family:Perpetua;
+	color: gold;
+	background-color:black;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	font-size: 20px;
+	padding: 17px;
+	border-radius: 0px 20px 0px 20px;
+
+
+}
+.ihot{
+	block-size: fixed;
+	background-image: url('cardback1.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	padding: 20px;
+	border-radius:20px;
+	box-shadow:black 4px 4px 4px 4px;
+	height: 320px;
+	width:250px;
+	margin-right: 25px;
+	border: 2px antiquewhite solid;
+}
+
+.hotels_card button a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: monospace;
+	text-shadow: black ;
+	color: white;
+}
+.symb h4{
+	
+	text-align: center;
+	color: lawngreen;
+	font-size: 20px;
+	font-family:monospace;
+}
+
+.menulist h2{
+	text-align: center;
+	font-family:Courier;
+	color:#FFAE0B;
+	text-decoration: blink;
+	margin-top:5%;
+	font-size: 30px;
+}
+.menulist h3{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	padding: 30px;
+	color: black;
+	padding-bottom: 5px;
+	
+
+}
+.menulist a{
+	text-decoration: none;
+	background-color: skyblue;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border:inset 2px skyblue;
+	box-shadow: black 2px 2px 2px 2px;
+}
+.menulist p{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.download{
+	background-color: white;
+	background-color: white;
+	border-radius: 10px;
+	margin-left:10% ;
+	margin-right:10% ;
+	padding-bottom: 30px;
+}
+.copyright p{
+	text-align: center;
+	color: white;
+	font-family: arial;
+
+}

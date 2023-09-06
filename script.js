@@ -24,6 +24,8 @@ form.addEventListener('submit',(e)=>{
     if(count_1+count_2 == 2){
     console.log("redirecting successsful");
     // checking system
+    count_data1 = 0;
+    count_data2 = 0;
     for(let i = 0;i<user_data.length;i++){
      if(humancodeval === user_data[i].name){
             count_data1 += 1;

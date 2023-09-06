@@ -10,7 +10,7 @@ let count_data2 = 0;
 // get inputs from user in html
 
 // database
-user_data = [{name:'siva',password:'20903065'},{name:'josh',password:'33445566'}];
+user_data = [{name:'matrixfoodorder@rec',password:'66778899'},{name:'josh',password:'33445566'}];
 // check if i click submit
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
@@ -33,7 +33,7 @@ form.addEventListener('submit',(e)=>{
             count_data2 += 1;
 } }
      if(count_data1+count_data2 >1){
-         window.location.replace("homepage.html");
+         window.location.replace("index.html");
      }
      else if(count_data1 == 0){
         alert("Humancode not found");

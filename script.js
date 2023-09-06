@@ -36,7 +36,7 @@ form.addEventListener('submit',(e)=>{
          window.location.replace("mfo.html");
      }
      else if(count_data1 == 0){
-        alert("Humancode not found");
+        alert("username not found");
      }
      else if(count_data2 == 0){
         alert("Incorrect password");
@@ -55,7 +55,7 @@ function validateinputs(){  // to filter the unwanted spaces in user input
     const pass_word = password.value.trim();
     // humancode checking
     if(humancode === ''){
-        seterror(human_code,"Humancode is required");
+        seterror(human_code,"username is required");
     }
     else{
         setsuccess(human_code);

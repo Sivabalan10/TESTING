@@ -1,0 +1,80 @@
+body{
+    background-image:url('backimage.jpg');
+    background-repeat:no-repeat;
+    background-size: auto;
+}
+#A_C_F{
+    background-color: ghostwhite;
+    border:5px;
+    width:400px;
+    margin:10vh auto 0 auto;
+    border-radius:6px;
+    padding:30px;
+    font-family: 'poppins',sans-serif;
+}
+h1{
+    text-align: center;
+    font-family:arial;
+    color: white;
+    margin-top: 10vh;
+    animation-name: intro;
+    animation-duration: 2.5s;
+}
+@keyframes intro{
+    from{
+        margin-top: 50vh;
+        font-size: 15px;
+    }
+    to{margin-top:13vh;}
+}
+form h2{
+    text-align: center;
+}
+.input_field{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+.input_field input{
+    border-radius: 5px;
+    padding:10px;
+    border: groove 3px black;
+}
+.input_field label{
+    text-align: left;
+    margin-bottom: 1vh;
+
+}
+.input_field .error{
+    text-align: left;
+    color:red;
+}
+.input_field .success input{
+    border-color: green;
+}
+.input_field .error input{
+    border-color: red;
+}
+form button{
+    padding: 10px;
+    width:100%;
+    background-color:darkblue ;
+    border-radius: 7px;
+    color:white;
+    cursor: pointer;
+
+}
+.tcontent{
+    content-visibility: visible;
+    animation:welcome_tile;
+    animation-duration: 2.5s;
+}
+@keyframes welcome_tile{
+    0%{content-visibility:hidden; }
+    50%{content-visibility: hidden;}
+    100%{content-visibility: hidden;}
+}
+
+
+

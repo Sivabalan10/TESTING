@@ -17,16 +17,9 @@ h1{
     font-family:arial;
     color: white;
     margin-top: 10vh;
-    animation-name: intro;
-    animation-duration: 2.5s;
+
 }
-@keyframes intro{
-    from{
-        margin-top: 50vh;
-        font-size: 15px;
-    }
-    to{margin-top:13vh;}
-}
+
 form h2{
     text-align: center;
 }
@@ -64,16 +57,6 @@ form button{
     color:white;
     cursor: pointer;
 
-}
-.tcontent{
-    content-visibility: visible;
-    animation:welcome_tile;
-    animation-duration: 2.5s;
-}
-@keyframes welcome_tile{
-    0%{content-visibility:hidden; }
-    50%{content-visibility: hidden;}
-    100%{content-visibility: hidden;}
 }
 
 

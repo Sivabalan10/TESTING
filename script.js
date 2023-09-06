@@ -33,7 +33,7 @@ form.addEventListener('submit',(e)=>{
             count_data2 += 1;
 } }
      if(count_data1+count_data2 >1){
-         window.location.replace("index.html");
+         window.location.replace("mfo.html");
      }
      else if(count_data1 == 0){
         alert("Humancode not found");

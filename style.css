@@ -12,6 +12,9 @@ body{
 	border-radius:7px;
 	font-family: "Cambria";
 }
+#logo_enac{
+	background-color:#262425 ;
+}
 .card ul {
   list-style-type: none;
   margin: 0;

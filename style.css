@@ -7,7 +7,9 @@ body{
 
 
 }
-
+.line{
+	display: none;
+}
 .card{
 	border-radius:7px;
 	font-family: "Cambria";
@@ -171,7 +173,9 @@ footer a{
 
 @media only screen and (max-width: 400px) {
 	
-
+	.line{
+		display: block;
+	}
 	.card li a {
 		padding: 20px 10px;
 		font-size: 14px;

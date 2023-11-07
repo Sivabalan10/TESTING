@@ -116,3 +116,58 @@ button{
 	margin-left: auto;
 	width:80%;
 }
+@media only screen and (max-width: 400px) {
+
+	header img {
+		width: 15ex;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+
+	#order {
+		width: 80%;
+		padding: 20px;
+	}
+
+	form {
+		display: block;
+		padding: 10px;
+	}
+
+	input {
+		padding: 10px;
+	}
+
+	#candimg img {
+		width: 6ex;
+	}
+
+	#de_fault {
+		box-shadow: 3px 3px 3px black;
+	}
+
+	button {
+		padding: 10px;
+		width: 200px;
+		font-size: 16px;
+	}
+
+	#orderinfo {
+		width: 90%;
+		padding: 15px;
+	}
+
+	#orderinfo h3 {
+		font-size: 20px;
+	}
+
+	#orderinfo p {
+		font-size: 14px;
+	}
+
+	#ins_1 {
+		padding: 3px;
+	}
+}

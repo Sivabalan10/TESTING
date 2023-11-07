@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="order_style.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+	
+	<title>buy_products</title>
+</head>
+<body>
+	<header>
+		<img src="images/logo.png">
+		<h1>ORDER YOUR CANDLES</h1>
+	</header>
+	<main>
+		
+
+		<div id = "order">
+			<div id="candimg">
+					<label for="de_fault">Cup</label>
+					<img src="images/cup.jpeg" id="de_fault" onclick="category(0,5)"><br><br>
+
+					<label for="6">Grape</label>
+					<img src="images/grape.jpeg" id="6" onclick="category(1,6)"><br><br>
+
+					<label for="7">Flower</label>
+					<img src="images/flower.jpeg" id="7" onclick="category(2,7)"><br><br>
+
+		    </div>
+			
+			<br>
+			<div id="form">
+			<form>
+				<h2 id ="ike">IKEBANA - CUP</h2>
+				<label for="1">Name &emsp;:  </label>
+				<input type="text" placeholder="your name / shop name" id="1" name = "name"><br><br>
+				<label for="2">Address : </label>
+				<input type="text" placeholder="street - city/town" id="2" name = "address"><br><br>
+				<label for="3">Landmark: </label>
+				<input type="text" placeholder="near hospital" id="3" name = "landmark"><br><br> 
+				<label for="4">Pincode : </label>
+				<input type="text" placeholder="xxx yyy" id="4" name="pincode"><br><br>
+				<label for="8">Quantity : </label>
+				<input type="number" id="8" placeholder="Enter quantity" name="quantity"><br><br>
+				
+				
+			</form>
+			<button onclick="submita()">ORDER</button><br>
+		</div>
+		</div>
+		<div id = "orderinfo">
+				<p id = "yorn"></p>
+				<div id = "ins_1">
+					<h3>Order info:</h3>
+					<p id="ord_inf">--none--</p>
+				</div>
+		</div>
+	</main>
+
+	<footer>
+	<script src="scripts/order.js"></script>
+	</footer>
+
+
+</body>
+</html>
